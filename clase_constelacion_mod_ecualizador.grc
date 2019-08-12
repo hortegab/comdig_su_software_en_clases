@@ -1124,7 +1124,7 @@
     </param>
     <param>
       <key>retardo</key>
-      <value>0</value>
+      <value>Delay_mpam*BpS</value>
     </param>
     <param>
       <key>semilla</key>
@@ -1492,7 +1492,7 @@
     </param>
     <param>
       <key>file</key>
-      <value>/home/uis-e3t/MisGits/Clase_su_software/textoo.txt</value>
+      <value>/home/uis-e3t/MisGits2019/su_software_en_clases_comdig/textoo.txt</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1543,7 +1543,7 @@
     </param>
     <param>
       <key>file</key>
-      <value>/home/uis-e3t/MisGits/Clase_su_software/textoi.txt</value>
+      <value>/home/uis-e3t/MisGits2019/su_software_en_clases_comdig/textoi.txt</value>
     </param>
     <param>
       <key>_coordinate</key>
