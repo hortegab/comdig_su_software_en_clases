@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?grc format='1' created='3.7.13'?>
+<?grc format='1' created='3.7.11'?>
 <flow_graph>
   <timestamp>Mon Aug 12 05:27:45 2019</timestamp>
   <block>
@@ -73,20 +73,12 @@
       <value>run_stop</value>
     </param>
     <param>
-      <key>sizing_mode</key>
-      <value>fixed</value>
-    </param>
-    <param>
       <key>thread_safe_setters</key>
       <value></value>
     </param>
     <param>
       <key>title</key>
       <value></value>
-    </param>
-    <param>
-      <key>placement</key>
-      <value>(0,0)</value>
     </param>
   </block>
   <block>
@@ -266,7 +258,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>8</value>
+      <value>2</value>
     </param>
   </block>
   <block>
@@ -725,7 +717,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(400, 444)</value>
+      <value>(336, 444)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -919,6 +911,65 @@
     <param>
       <key>payload</key>
       <value>payload</value>
+    </param>
+  </block>
+  <block>
+    <key>b_PSD_c</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>Fc</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>samp_rate_audio</key>
+      <value>samp_rate_data</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(824, 644)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>b_PSD_c_0</value>
+    </param>
+    <param>
+      <key>N</key>
+      <value>1024</value>
+    </param>
+    <param>
+      <key>Ensayos</key>
+      <value>1000000</value>
+    </param>
+    <param>
+      <key>Titulo</key>
+      <value>'PSD'</value>
+    </param>
+    <param>
+      <key>Ymax</key>
+      <value>6e-6</value>
     </param>
   </block>
   <block>
@@ -1427,7 +1478,7 @@
     </param>
     <param>
       <key>file</key>
-      <value>/home/uis-e3t/MisGits2019/su_software_en_clases_comdig/temporal/textoo.txt</value>
+      <value>/home/hob/MisGITS/su_software_en_clases_comdig/Clase_MPSK/textoo.txt</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1457,10 +1508,6 @@
   <block>
     <key>blocks_file_source</key>
     <param>
-      <key>begin_tag</key>
-      <value>pmt.PMT_NIL</value>
-    </param>
-    <param>
       <key>alias</key>
       <value></value>
     </param>
@@ -1478,11 +1525,11 @@
     </param>
     <param>
       <key>file</key>
-      <value>/home/uis-e3t/MisGits2019/su_software_en_clases_comdig/temporal/textoi.txt</value>
+      <value>/home/hob/MisGITS/su_software_en_clases_comdig/Clase_MPSK/textoi.txt</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(16, 108)</value>
+      <value>(8, 116)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1613,7 +1660,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(568, 416)</value>
+      <value>(504, 416)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1669,7 +1716,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(560, 588)</value>
+      <value>(496, 588)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1728,7 +1775,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(400, 412)</value>
+      <value>(336, 412)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1788,7 +1835,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(408, 588)</value>
+      <value>(344, 588)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1854,7 +1901,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(464, 676)</value>
+      <value>(488, 676)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2022,7 +2069,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(480, 508)</value>
+      <value>(416, 508)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3219,7 +3266,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(308, 472)</value>
+      <value>(236, 472)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3246,7 +3293,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(700, 488)</value>
+      <value>(636, 488)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3354,7 +3401,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(348, 472)</value>
+      <value>(284, 480)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3543,7 +3590,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(20, 464)</value>
+      <value>(12, 464)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3597,7 +3644,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(740, 464)</value>
+      <value>(684, 464)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3929,6 +3976,12 @@ def rrcos(Sps,ntaps,beta):
   <connection>
     <source_block_id>interp_fir_filter_xxx_1</source_block_id>
     <sink_block_id>b_Canal_AWGN_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>interp_fir_filter_xxx_1</source_block_id>
+    <sink_block_id>b_PSD_c_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
