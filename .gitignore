@@ -2,11 +2,8 @@
 textoo.txt
 *.pyc
 recibido.jpg
-recibido.mp4
 recibido.txt
-enviado.jpg
-enviado.mp4
-enviado.txt
+*.mp4
 
 # las siguientes son las carpetas a ignorar
 obsoleto/
